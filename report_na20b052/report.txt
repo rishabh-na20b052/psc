@@ -1,0 +1,2 @@
+mpicc -o regexe MPI_Regression.cpp -lstdc++ -lm
+$ mpiexec -n 4 time ./regexe 0.01 100
